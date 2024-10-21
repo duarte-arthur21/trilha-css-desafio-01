@@ -1,0 +1,25 @@
+header {
+    background-image: url("/assets/images/banner.png");
+    background-color: #0d678d;
+   }
+footer{
+    background-color: black;
+}
+
+section#transform-world{
+    background-image: url("/assets/images/woman-code.svg");
+    width: 20lvw;
+    height: 363px;
+    border: 1px 1px 1px;
+}
+section#transform-world p {
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 47px;
+    width: 20%;
+    text-align: left;
+    margin-left: 198px;
+    padding: 10px;
+    text-shadow:#2271c5 4px 1px
+}
