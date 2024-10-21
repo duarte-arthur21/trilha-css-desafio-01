@@ -8,7 +8,6 @@ footer{
 
 section#transform-world{
     background-image: url("/assets/images/woman-code.svg");
-    width: 20lvw;
     height: 363px;
     border: 1px 1px 1px;
 }
@@ -22,4 +21,17 @@ section#transform-world p {
     margin-left: 198px;
     padding: 10px;
     text-shadow:#2271c5 4px 1px
+}
+main {
+    background-color: black;
+    text-align: center;
+}
+
+section#professional-challenges h2{
+    color: #33A8DB;
+    margin-top: 40px;
+}
+section#professional-challenges p{
+    color: #FFFFFF;
+    margin: 50px 100px 70px 100px;
 }
