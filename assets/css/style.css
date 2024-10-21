@@ -1,12 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-color: black;
+
+}
 header {
+    background: linear-gradient(180deg, rgba(12, 5, 217, 0.233) 0%, rgba(28, 101, 130, 0) 100%);
+    gap: 0px;
+    opacity: 0px;
     background-image: url("/assets/images/banner.png");
-    background-color: #001720;
     border: solid 2px #33A8DB;
     text-align: center;
-
    }
+header h1 {
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;    
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+}
+header p {
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 20PX;
+    font-weight: 400;
+    line-height: 23.48px;
+    height: 46px;
+    width: 550px;
+    margin-left: 33cap;
+}
+header button {
+    background-color: transparent;
+    font-family: "Raleway", sans-serif;
+    font-size: 16PX;
+    font-weight: 900;
+    padding: 19px 91px 19px 91px;
+    margin-bottom: 58px;
+    margin-top: 25px;
+
+    color: #31A8DD;
+    border: 2px solid #31A8DD;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+header button:hover {
+    background-color: #31A8DD;   
+    color: #FFFFFF;
+}
+
+.logo{
+    margin-top: 56px;
+    margin-bottom: 47px;
+}
 main {
-    background-color: black;
     text-align: center;
 }
 
@@ -18,7 +67,6 @@ section#transform-world{
 
 }
 section#transform-world p {
-    background-color: black;
     color: aliceblue;
     font-weight: bold;
     font-size: 47px;
