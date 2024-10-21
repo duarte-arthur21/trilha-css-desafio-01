@@ -1,15 +1,21 @@
 header {
     background-image: url("/assets/images/banner.png");
-    background-color: #0d678d;
+    background-color: #001720;
+    border: solid 2px #33A8DB;
+    text-align: center;
+
    }
-footer{
+main {
     background-color: black;
+    text-align: center;
 }
 
 section#transform-world{
     background-image: url("/assets/images/woman-code.svg");
     height: 363px;
     border: 1px 1px 1px;
+    border: solid 2px #33A8DB;
+
 }
 section#transform-world p {
     background-color: black;
@@ -22,16 +28,34 @@ section#transform-world p {
     padding: 10px;
     text-shadow:#2271c5 4px 1px
 }
-main {
-    background-color: black;
-    text-align: center;
+
+section#professional-challenges{
+    border: solid 2px #33A8DB;
 }
 
 section#professional-challenges h2{
     color: #33A8DB;
     margin-top: 40px;
+    font-weight: bold;
 }
 section#professional-challenges p{
     color: #FFFFFF;
     margin: 50px 100px 70px 100px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    border: solid 2px #33A8DB;
+}
+footer p {
+    color: #FFFFFF;
+    height: 200px;
+}
+footer img{
+    margin-top: 150px;
+}
+p a {
+    color: #33A8DB;
+    text-decoration:none;
+    font-weight: bold;
 }
