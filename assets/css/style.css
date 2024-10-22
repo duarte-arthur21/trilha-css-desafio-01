@@ -5,8 +5,6 @@
 }
 body {
     background-color: black;
-    border: solid 2px #33A8DB;
-
 }
 header {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.395) 0%, rgba(49, 168, 221, 0) 100%);
@@ -97,6 +95,7 @@ section#transform-world{
     background-image: url("/assets/images/woman-code.svg");
     height: 363px;
     border: solid 2px #33A8DB;
+    background-repeat: no-repeat;
 }
 section#transform-world p {
     color: aliceblue;
@@ -115,12 +114,18 @@ section#professional-challenges{
 
 section#professional-challenges h2{
     color: #33A8DB;
-    margin-top: 40px;
+    margin: 90px 0px 65px 350px;
     font-weight: bold;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 0.19em;
+    width: 800px;
 }
 section#professional-challenges p{
     color: #FFFFFF;
-    margin: 50px 100px 70px 100px;
+    margin: 50px 100px 130px 350px;
+    width: 792px;
 }
 footer{
     background-color: black;
